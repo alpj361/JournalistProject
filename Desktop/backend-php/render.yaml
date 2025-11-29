@@ -2,7 +2,7 @@ services:
   - type: web
     name: collaborative-map-backend
     env: docker
-    rootDirectory: backend-php
+    rootDir: backend-php
     dockerfilePath: ./Dockerfile
     dockerContext: ./
     envVars:
